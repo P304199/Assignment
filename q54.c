@@ -3,9 +3,8 @@
 
 int main()
 {
-    int arr[10]; //declaration of array of size 10
-    int sum =0; //declaration of sum variable to calculate sum and initializing its value to 0
-    //triggering the loop to store numbers in array and calculating their sum
+    int arr[10];
+    int sum =0;
     for(int i =0; i <10; i++)
     {
         printf("Enter number: ");
@@ -14,6 +13,6 @@ int main()
         sum = sum +arr[i];
     }
 
-    printf("%d is the sum of entered number.",sum); //printing the output
+    printf("%d is the sum of entered number.",sum); 
     return 0;
 }
