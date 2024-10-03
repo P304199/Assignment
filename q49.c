@@ -5,15 +5,12 @@ print  :        *
                 ****    
                 *****
 */  
-#include<stdio.h> //inclusion of standard input output header file
+#include<stdio.h> 
 int main()
 {
-    int n; //declaration of variable to store user's input
-
-    //taking input from the user
+    int n; 
     printf("Enter the value of n: "); 
-    scanf("%d",&n);
-    //triggering the loop for printing the required pattern
+    scanf("%d",&n); 
     for(int i =1; i <=n; i++)
     {
         for(int j =1; j <=i; j++)
