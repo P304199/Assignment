@@ -8,17 +8,17 @@
 #include<time.h>
 int main()
 {
-int input;  //declaration of a variable to take input from the user
-time_t time; //variable to store time
+int input;  
+time_t time; 
     
-    // triggering the loop to get input from the user
+    
     while (input != -1)
     {   
              printf("Enter the number (from 0 to 9 ) which you assume to be lucky or press -1 to terminate: ");
             scanf("%d",&input);
                
                
-              //evaluation of lucky number
+              
             int luckynumber = time%10;
             time = time /10;
             
